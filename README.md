@@ -101,6 +101,21 @@ is another reason this error could show up.
 
 A rake task for testing makes running the test suite easy! Simply enter:
 
-~~~
+```
 rake test
-~~~
+```
+
+Testing was written with Minitest, so running an individual file or test is 
+also easy! 
+
+To run all tests in a single file, run:
+
+```
+ruby path/to/test/file.rb
+```
+
+Or to run a single test, run:
+
+```
+ruby path/to/test/file.rb --name=test_name
+```
