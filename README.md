@@ -38,7 +38,7 @@ chmod u+x bin/kit_info
 
 Finally, you'll have to add your Typekit API key to allow kit_info to access
 your Typekit account. Open `lib/util/typekit_auth_key.rb` with your favorite 
-text editor and replace `"YOUR_KEY_HERE"` with your API key, in quotes.
+text editor and replace `YOUR_KEY_HERE` with your API key, in quotes.
 
 ## 1. Usage
 
