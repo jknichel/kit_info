@@ -22,7 +22,7 @@ class TypekitApiWrapper
     rescue RestClient::Unauthorized => e
       # an authorization error is indicative that the configuration won't work,
       # not that an individual request errored, so raise instead of recovering
-      raise e
+      raise 
     rescue RestClient::Exception => e
       # attempt to handle other RestClient exceptions gracefully
       # return the erorr message and keep moving
