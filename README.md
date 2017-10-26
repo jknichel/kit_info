@@ -13,17 +13,25 @@ interacting with the Kits in your Typekit account.
 
 ## Setup and Installation
 
-Make sure that Ruby and Bundler are installed on your machine.
+Make sure that Ruby and Bundler are installed on your machine!
+
+First, clone the repo and move into the project directory:
+
+```
+git clone https://github.com/jknichel/kit_info.git
+cd kit_info
+```
+
 In the base directory of the project run:
 
-```bash
+```
 bundle install
 ```
 
 You may also need to make the kit_info file in `bin/` executable by running the
 following in the base directory of the project:
 
-```bash
+```
 chmod u+x bin/kit_info
 ```
 
@@ -44,7 +52,7 @@ text editor and replace `YOUR_KEY_HERE` with your API key, in quotes.
 
 In order to start up kit_info, just run:
 
-```bash
+```
 bin/kit_info
 ```
 
