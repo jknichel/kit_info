@@ -34,6 +34,7 @@ chmod u+x bin/kit_info
   * [2.2 Unexpected response](#22-unexpected-response)
   * [2.3 Resource not found](#23-resource-not-found)
   * [2.4 Bad request](#24-bad-request)
+* [3. Testing](#3-testing)
 
 Finally, you'll have to add your Typekit API key to allow kit_info to access
 your Typekit account. Open `lib/util/typekit_auth_key.rb` with your favorite 
@@ -95,3 +96,11 @@ There is one peculiarity with the Typekit API that would also cause this error
 to be received. If the account contains its maximum number of Kits, and it a 
 create kit request is received, the API will return a bad request error. This 
 is another reason this error could show up.
+
+## 3. Testing
+
+A rake task for testing makes running the test suite easy! Simply enter:
+
+~~~
+rake test
+~~~
